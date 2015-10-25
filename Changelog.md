@@ -1,2 +1,2 @@
 ## Version 1.0
-- Projekt Visual Studio ready gemacht
+* Projekt Visual Studio ready gemacht
