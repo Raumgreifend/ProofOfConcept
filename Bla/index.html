@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Kinowahl</title>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="main.js"></script>
+
+</head>
+
+
+<body>
+    <h1 id="chooseCineHeading">Wähle dein Kino</h1>
+    <h2 class="chooseSubheading">Stadt</h2>
+    <div class="divSelect">
+        <select id="selectCity">
+            <option id="defaultOption"></option>
+            <option value="1">Düsseldorf</option>
+            <option value="2">Hamburg</option>
+        </select>
+    </div>
+
+    <div id="divCine">
+        <h2 class="chooseSubheading">Kino</h2>
+        <div class="divSelect">
+            <select id="selectCine"></select>
+        </div>
+    </div>
+    <div id="divButton"><button id="next">Weiter</button></div>
+
+</body>
+</html>
